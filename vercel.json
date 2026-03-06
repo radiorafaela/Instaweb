@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "crons": [
+        {
+            "path": "/api/reels",
+            "schedule": "0 * * * *"
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/data/reels.json",
+            "destination": "/api/reels"
+        }
+    ]
+}
